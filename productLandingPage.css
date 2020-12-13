@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: rgb(243, 177, 53); /* Blue */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  padding: 10px 0;
+  background-color: lightseagreen;
+  font-size: 14px;
+}
+
+nav {
+  background-color: lightseagreen;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+nav a {
+  color: aliceblue;
+}
+
+.nav-link {
+  margin: 0 50px;
+  text-decoration: none;
+}
+
+figure {
+  margin-top: 50px;
+}
+
+main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2 {
+  margin: 20px 0;
+  background-color: rgb(243, 177, 53);
+  padding: 10px 5px;
+  color: darkblue;
+}
+
+h3 {
+  margin: 20px 0;
+  background-color: rgb(235, 200, 137);
+  padding: 10px 5px;
+  color: darkblue;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  margin: 15px 0;
+}
+
+form label {
+  font-size: 18px;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+#email {
+  background-color: #ffffff;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  width: auto;
+  padding: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#submit {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+
+  color: #ffffff;
+  background-color: #5995da;
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2,
+  h3 {
+    font-size: 16px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    padding: 5px 0;
+  }
+
+  figure {
+    margin-top: 100px;
+  }
+}
